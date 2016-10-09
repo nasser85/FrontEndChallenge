@@ -1,0 +1,67 @@
+
+body { 
+  background: linear-gradient(rgba(0,20,80,0.3), rgba(0,20,100,1)), url(image1.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+  background-size: cover;
+  font-family: "Karla";
+}
+
+h1 {
+	font-size: 50px;
+}
+h2 {
+	padding-top: 10%;
+	text-align: center;
+	color: black;
+}
+ul {
+	text-align: center;
+	padding: 20px;
+}
+.main {
+	padding-left: 5%;
+	margin-top: 20%;
+	color: white;
+	
+}
+
+img {
+	width: 60%;
+	margin-left: 20%;
+}
+nav {
+	background-color: white;
+	height: 50px;
+}
+nav span {
+	color: darkgrey;
+}
+span {
+	color: white;
+	margin-bottom: 50px;
+	margin-left: 50%;
+}
+
+.main-buttons {
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0);
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	width: 180px;
+	padding: 10px;
+	text-align: center;
+	margin-right: 4%;
+	margin-left: -2%;
+}
+
+.main-buttons:hover {
+	background-color: rgba(0, 0, 0, 1);
+}
+#next-page {
+	background-color: white;
+	margin-top: -50px;
+	margin-bottom: 0px;
+}
